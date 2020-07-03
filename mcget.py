@@ -6,7 +6,7 @@ mcLauncherUrl = "https://launchermeta.mojang.com/mc/game/version_manifest.json"
 json = requests.get(mcLauncherUrl).json()
 
 # version is specified as a string ("1.16", "1.4.2", etc)
-# channel is also a string ("release", "snapshot", "old_alpha")
+# channel is also a string ("release", "snapshot", "old_beta", "old_alpha")
 #
 #
 
